@@ -1,5 +1,10 @@
 import numpy as np
 
+'''
+Algoritmo gerador com eliminação gaussiana sob uma matriz. Com este efeito reduz o número de variáveis duma matriz
+O que economiza em questão de tempo de execução e gasto de memória.
+'''
+
 #---------------------------------------------------------------------------------------------------
 #----------------------------------- Funçoes Bases -------------------------------------------------
 def data_generator(r, l, e, tam=1000, rho=False):
